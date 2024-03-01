@@ -77,6 +77,9 @@ li {
   z-index: -1;
 }
 
+.ff-zh{
+  font-family: "noto serif tc";
+}
 .products {
   &-submenu {
     position: relative;
@@ -109,7 +112,7 @@ li {
     width: 100%;
     color: $primary;
     font-family: "noto serif tc";
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 
     img {
       border-radius: 120px 120px 0 0;
@@ -124,7 +127,7 @@ li {
     @media (min-width: 992px) {
       width: calc(50% - 4px);
       margin-right: 8px;
-      margin-bottom: 64px;
+      margin-bottom: 48px;
 
       &:nth-child(even) {
         margin-right: 0;
