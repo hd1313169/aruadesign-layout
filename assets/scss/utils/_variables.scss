@@ -296,6 +296,7 @@ $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
 $gray-light: #E9E9E9 !default;
+$gray: #AEAEAE !default;
 $dark: $gray-900 !default;
 // scss-docs-end theme-color-variables
 
@@ -309,7 +310,9 @@ $theme-colors: (
   "danger": $danger,
   "light": $light,
   "gray-light": $gray-light,
-  "dark": $dark) !default;
+  "dark": $dark,
+  "gray": $gray
+  ) !default;
 // scss-docs-end theme-colors-map
 
 // Characters which are escaped by the escape-svg function
